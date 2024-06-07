@@ -31,7 +31,31 @@ public class Operadores {
 
         String resultado = a==b ? "verdadeiro" : "falso";
             System.out.println(resultado);
+        /**Utilizando operadores relacionais */
+        
+        String boss1 = "Lasaxya";
+        String boos2 = "Victor";
+        
+        boolean yesOrNo = boss1 != boos2;
+        System.out.print("O número Um é diferente do número 2?" + yesOrNo + "\n");
 
+        if(boss1 != boos2){
+            System.out.println("Você pode continuar suar jornada");
 
+        } else if (boss1 == boos2){
+            System.out.println("Você não pode continuar sua jornada");
+        }
+
+        /** Utilizando operadores lógicos */
+
+        boolean condicao1 = true;
+        boolean condicao2 = true;
+
+        if(condicao1 && condicao2){
+            System.out.println ("Você passou de fase");
+        }
+        if (condicao1 || condicao2){
+            System.out.println("Você precisa resgatar um item");
+        }
     }
 }
